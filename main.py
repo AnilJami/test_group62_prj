@@ -11,8 +11,8 @@ cur = conn.cursor()
 cur.execute("SELECT id, name from test_schema.test_table")
 rows = cur.fetchall()
 for row in rows:
-   print "ID = ", row[0]
-   print "NAME = ", row[1], "\n"
+   print("ID = ", row[0])
+   print("NAME = ", row[1], "\n")
 
 print "Operation done successfully";
 conn.close()
