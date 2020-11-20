@@ -41,6 +41,6 @@ http://127.0.0.1/pgadmin4
 group62@group62.com
 
 
-
+python3 main.py
 
 ```
