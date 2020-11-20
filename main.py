@@ -14,5 +14,5 @@ for row in rows:
    print("ID = ", row[0])
    print("NAME = ", row[1], "\n")
 
-print "Operation done successfully";
+print("Operation done successfully");
 conn.close()
