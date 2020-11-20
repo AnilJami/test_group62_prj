@@ -22,3 +22,11 @@ Run test file
     
 Run test UI 
     python3 server.py
+    
+Install postgress
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo -i -u postgres
+psql
+\q ==> to exit psql
