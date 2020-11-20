@@ -31,6 +31,16 @@ sudo -i -u postgres
 psql
 \q ==> to exit psql
 
+Accessing a Postgres Prompt Without Switching Accounts
+sudo -u postgres psql
+
+sudo -u postgres createuser --interactive
+
+
+http://127.0.0.1/pgadmin4
+group62@group62.com
+
+
 
 
 ```
